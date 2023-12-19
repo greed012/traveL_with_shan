@@ -1,0 +1,809 @@
+  /**********************About page css starts here*******************************************/
+
+.about .section1{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.about .section1 .sec1{
+	text-align: justify;
+		display: flex;
+	flex-wrap: wrap;
+	font-size: 17px;
+
+}
+
+.about .side_img{
+	margin-top: 2%;
+	border: solid;
+	flex:  0 0 20%;
+	position: relative;
+	width: 40%;
+	height: auto;
+
+}
+
+.about .sec1 .writing{
+	flex:  0 0 50%;
+	position: relative;
+	margin-left: 5%;
+}
+
+
+.about .sec2{
+	font-size: 17px;
+	text-align: justify;
+}
+
+
+
+.video_outer_wrapper{
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.video2{
+	margin-top: 8%;
+	margin-left: 4%;
+	margin-bottom: 5%;
+}
+.text_wrapper{
+	font-size: 17px;
+	flex: 0 0 29%;
+	position: relative;
+	max-width: 29%;
+	float: left;
+	text-align: justify;
+}
+
+.video_wrapper{
+	margin-left: 32%;
+	flex: 0 0 65%;
+	position: relative;
+	max-width: 65%;
+}
+
+audio {
+	width: 40%;
+}
+
+.head3{
+
+	margin-top: 7%;
+	text-align: center;
+
+    		}
+
+
+.popular_div{
+	text-align: center;
+	margin-top: 2%;
+	text-align: center;
+
+}
+
+
+.container3{
+	margin-left: 8%;
+	height: 320px;
+	
+}
+.popular_img{
+						position: relative;
+						width: 25%%;
+						height: 250px;
+						float: left;
+						margin-left: 20px;
+						margin-right: 20px;
+						margin-bottom: 0;
+					}
+
+					.popular_img div{
+						display: flex;
+						justify-content: center;
+						position: absolute;
+						bottom: 0;
+						right: 0;
+						background: black;
+						color: white;
+						margin-bottom: 0px;
+						font-family: sans-serif;
+						opacity: 0;
+						
+						-webkit-transition: visibility 0s, opacity 0.5s linear; 
+						transition: visibility 0s, opacity 0.5s linear;
+					}
+
+
+/* Hover on Parent Container */.popular_img:hover{
+	cursor: pointer;
+}
+.pop_img{
+						height: 300px;
+						width: 300px;
+						display: block;
+						border-radius: 25px;
+					}
+
+.popular_img:hover div{
+	text-align: center;
+	border-radius: 25px;
+	font-size: 20px;
+	width: 150px;
+	padding: 8px 15px;
+	visibility: visible;
+	opacity: 0.7; 
+}
+
+.pop_img:hover{
+	transform: scale(1.15)
+}
+
+.about button{
+	border: transparent;
+	height: 35px;
+	background: #fc6503;
+	color: white;
+	font-size: 16px;
+}
+
+
+  /**********************About page css ends here*******************************************/
+
+
+    .logo {
+    	height: 90px;
+    	margin-left: 40%;
+    }
+    body{
+    	margin: 0;
+    	width: 100%;
+    }
+
+    .left{
+    	float: left;
+    }
+    .container{
+    	margin-left: 25%;
+    }
+
+    .container ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;}
+
+    	.container li {
+    		float : left;}
+
+    		.container li a {
+    			font-weight: bold;
+    			font-size: 20px;
+    			display: block;
+    			color: black;
+    			text-align: center;
+    			padding: 14px 16px;
+    			text-decoration: none;
+    			background-color: none;
+    		}
+
+    		.container li a:hover {
+    			color: red;
+    			text-shadow: None
+    		}
+
+
+
+    		.video{
+    			width: 100%;
+    		}
+
+
+
+    		/* Section hotel start */
+    		.ser_hotel{
+    			margin: 0;
+    			width: 100%;
+    			height: 1000px;
+    			float: none;
+
+    		}
+
+    		.hotel_left{ 
+    			background: #e8e7e6;
+    			width: 20%;
+    			height: 550px;
+    			float: left;
+    			margin-left: 6px;
+    		}
+    		.hotel_left input{
+    			margin-top: 10px;
+    			margin-bottom: 5px;
+    		}
+    		.hotel_left h4{
+    			margin-top: 10px;
+    		}
+
+    		.hotel_left input[type='search']{
+    			height: 30px;
+    			width: 90%;
+    			margin-bottom: 10px;
+    		}
+
+    		.hotel_left button{
+    			width: 20%;
+    			font-size: 14px;
+    			font-weight: none;
+    		}
+
+    		.hotel_right{
+    			width: 78%;
+    			float: right;
+    			margin-right:;
+
+    		}
+
+    		.hotel_right img{
+    			width: 300px;
+    			height: 180px;
+    		}
+
+    		.right_left{
+    			width: 50%;
+    			float: left;
+
+    		}
+
+    		.ser_hotel h4,h5,h6{
+    			margin-left: 0;
+    			margin-right: 0;
+    			margin-bottom: 4px;
+    			margin-top: 2px;
+    		}
+    		.ser_hotel button{
+    			background: #fc5603	;
+    			border: transparent;
+    			border-radius: 10%;
+    			height: 25px;
+    			color: white;
+    		}
+
+    		.image_wrap{
+    			margin-bottom: 5px;
+    		}
+
+    		.heading{
+    			margin-left: 50%;
+    		}
+    		.heading:hover{
+    			color: red;
+    		}
+
+    		.load{
+    			width: 120px;
+    			height: 40px;
+    			border: none;
+    			border-radius: 0;
+    			margin-left: 30%;
+    		}
+    		/* Section hotel ends */
+
+
+/* Section car rent starts */
+
+.wrapper{
+	background-image: url("car_rental1.jpg");
+	background-size:  100% 100%;
+	opacity: 0.8;
+
+}
+.car_rental{
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	margin-top: 1%;
+	margin-left: 30%;
+	
+}
+
+.car_rental input{
+	height: 25px;
+
+}
+
+.car_rental button{
+	background: white;
+	height: 25px;
+	
+	border: transparent;
+	background: #fc6503;
+	color: white;
+	font-size: 16px;
+}
+.car_rental input[name="address"]{
+	width: 40%;
+}
+
+.car_rental select{
+	height: 30px;
+}
+.lease{
+	padding-top: 2%;
+}
+.form{
+
+}
+
+/*  section car rent ends */
+
+
+
+/* Section guides starts */
+
+.guides{
+	background-image: url("tour_guide.jpg");
+	background-size: 100% 400pxpx;
+	width: 100%;
+	height: 250px;
+	opacity: 0.8;
+}
+
+.guides h2{
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-align: center;
+}
+
+.guides input[type='search']{
+	height: 45px;
+	width: 50%;
+	font-size: 18px;
+	margin-left: 20%;
+}
+.guides button{
+	border: transparent;
+	height: 35px;
+	background: #fc6503;
+	color: white;
+	font-size: 16px;
+}
+
+
+/*  section car rent ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***********************Contact Page start******************************************************* */
+
+form{
+	font-size: 20px;
+	margin-top: 2%;
+}
+
+.mainw{
+	display: flex;
+	flex-wrap: wrap;
+}
+ .leftw{
+	flex: 0 0 70%;
+	position: relative;
+	max-width: 70%;
+}
+
+.leftw h2{
+	margin-left: 5%;
+}
+.rightw{
+	flex: 0 0 38%;
+	position: relative;
+	max-width: 30%;
+	margin-top: 5%;
+
+}
+
+.rightw img{
+	height: 40px;
+	width: 40px;
+	margin-left: 4%;
+	margin-right: 5%;
+	margin-top: 8%;
+
+}
+
+.social a{
+	margin-right: 10%;
+}
+
+.social img{
+	height: 60px;
+	width: 60px;
+}
+
+.rightw p{
+	margin: 0;
+}
+.rightw div{
+	display: inline-flex;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.name{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.first_name{
+	flex:  0 0 50%;
+	position: relative;
+	max-width: 50%;
+	margin: 0;
+	padding-right: 2%;
+}
+.last_name{
+	padding-left: 2%;
+	flex:  0 0 50%;
+	position: relative;
+	max-width: 50%;
+	margin: 0;
+}
+
+.contact label{
+	display: inline-block;
+	margin-bottom: 2%;
+}
+
+
+.contact input{
+	padding: 1%;
+	height: 45px;
+	width:100%;
+}
+
+.contact button{
+	font-size: 18px;
+	border: none;
+	margin-left: 45%;
+	margin-right: 45%;
+	height: 40px;
+	width: 80px;
+	text-align: center;
+	background-color:#ff6600;
+	color: white;
+	border-radius: 25px;
+
+}
+
+.phone,.email,.message{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 0 100%;
+	max-width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+}
+
+.message textarea{
+	height:250px;
+	width: 100%;
+}
+
+
+/* ***********************Contact Page end******************************************************* */
+
+
+/* *************************************** Blog page starts here ************************************ */
+.whole_wrap{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.left_wrap{
+	flex: 0 0 80%;
+	position: relative;
+	max-width: 80%;
+}
+
+.right_wrap{
+	background:  #e6e5e3;;
+	flex: 0 0 20%;
+	position: relative;
+	max-width: 20%;
+}
+
+.right_wrap_wrap{
+	margin-left: 4%;
+}
+
+.right_wrap_wrap ul{
+
+}
+
+.right_wrap_wrap li{
+	margin-bottom: 5%;
+	font-size: 18px;
+}
+
+.right_wrap_wrap a{
+	color: black;
+	text-decoration: none;
+}
+
+.right_wrap_wrap a:hover{
+	color: red;
+}
+.right_wrap label{
+
+}
+.right_wrap input{
+	width: 80%;
+	margin-bottom:5%;
+	height: 30px;
+}
+
+.blog_wrap{
+	background: #e6e5e3;
+	margin-left:5%;
+	margin-right: 5%;
+	
+}
+
+.second_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left:5%;
+	margin-right:0 ;
+}
+
+.blog_image{
+	flex:  0 0 30%;
+	position: relative;
+	max-width: 40%;
+	margin: 0;
+	padding-right: 2%;
+}
+
+
+
+.blog_wrap img{
+	height: 150px;
+	width: auto;
+}
+
+.blog_wrap h2{
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+.blog_text{
+	font-size: 18px;
+	text-align: justify;
+	flex: 0 0 80%;
+	position: relative;
+	padding-right: 2%;
+	max-width: 70%;
+	margin: 0;
+
+}
+
+
+/* Over writing the above Css to fit with image size without altering the width */
+.blog_image1{
+	flex: 0 0 30%;
+}
+
+.blog_text1{
+	flex: 0 0 65%;
+	margin-top: 0;
+	padding-bottom: 2%;
+}
+
+
+
+.byline{
+	font-size: 22px;
+	float: right;
+	text-align: center;
+}
+.whole_wrap button{
+	background-color: #fa7116;
+	border: none;
+	height: 30px;
+	color: white;
+	font-size: 15px;
+}
+
+
+.pagination {
+margin-left: 40%;
+margin-right: 30%;
+font-size: 20px;
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a:hover{
+	color: red;
+}
+/* *************************************** Blog page starts here ************************************ */
+
+
+/* **************************************** Destination page starts here ******************************* */
+
+.desti_wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.desti_wrap_right{
+	flex: 0 0 80%;
+	position: relative;
+	max-width: 80%;
+	padding-left: 4%;
+}
+
+.desti_wrap_left{
+	flex: 0 0 18%;
+	position: relative;
+	max-width: 18%;
+	margin-left: 1%;
+	margin-left: 0;
+	max-height: 10%;
+	background-color: #e8e7e6;
+}
+
+.desti_search label[for="search"]{
+	font-size: 25px;
+	margin-bottom: 5%;
+}
+.desti_search{
+	margin-top: 4%;
+		margin-left: 2%;
+}
+
+
+.desti_search input[name='search']{
+	width: 100%;
+	height: 30px;
+}
+
+.desti_search input{
+	margin-bottom: 5%;
+}
+.desti_ele_wrap{
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 2%;
+		margin-bottom: 2%;
+
+
+}
+
+.desti_element{
+	margin-left: 3%;
+	margin-bottom: 3%;
+	flex: 0 0 45%;
+	position: relative;
+	max-width: 50%;
+	max-height: 1%;
+	border: nonw;
+}
+
+.desti_element img{
+	height: 100%;
+	max-height: 280px;
+	width: 90%;
+}
+
+.desti_element h4{
+	margin: 1% 0 0 0;
+}
+
+.desti_element h5{
+	margin-top: 1%;
+	font-size: 16px;
+}
+
+.desti_element p{
+	font-size: 14px;
+}
+.desti_element button{
+	border: transparent;
+	height: 35px;
+	background: #fc6503;
+	color: white;
+	font-size: 16px;
+	margin-left: 35%;
+}
+
+.desti_wrap button{
+	border: transparent;
+	height: 35px;
+	background: #fc6503;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+/* **************************************** Destination page ends here ******************************* */
+.all_wrap{
+	background: #111;
+	color: white;
+	margin-bottom: 0;
+
+}
+
+.all_wrap a{
+	text-decoration: none;
+	color: white;
+}
+
+.all_wrap a:hover{
+	color: red;
+}
+.whole_foot_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.foot_wrapper{
+	flex: 0 0 20%;
+	position: relative;
+	max-width: 20%;
+}
+
+
+.inner_foot_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pic_wrap{
+	flex: 0 0 33%;
+	position: relative;
+	margin-left: 15%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.colmn{
+	flex-wrap: wrap;
+	flex: 0 0 50%;
+	position: relative;
+	max-width: 50%;
+}
+.outer_column{
+	display: flex;
+
+}
+.foot_wrapper li{
+	list-style-type: none;
+	margin-bottom: 4%;
+}
+
+.foot_wrapper img{
+	height: 45px;
+}
+
+.copyright{
+	text-align: center;
+}
+/* Footer Section ends */
